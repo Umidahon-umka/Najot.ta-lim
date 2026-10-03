@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    
+  </head>
+  <body>
+    <header>
+      <h1>☕ Qahvaxona</h1>
+      <nav>
+        <a href="#Menyu">Menyu</a>
+        <a href="#Bog'lanish">Bog'lanish</a>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="center">
+          <div class="Toshkent">Toshkent markazida</div>
+          <br />
+          <div class="drink">
+            Har qultumda <br />
+            <span>iliq his</span>
+          </div>
+          <br />
+          <br />
+          <p>
+            Dunyoning eng sara qahva donlari, mohir baristalar qo'li <br />
+            va iliq muhit — barchasi siz uchun.
+          </p>
+          <br />
+          <br />
+          <button class="btn-see">Menyu ko'rish</button>
+          <button class="btn-contact">Bog'lanish</button>
+        </div>
+      </section>
+      <br />
+      <br />
+      <div class="big-div">
+        <div class="things">
+          <h3>Bizning taklif</h3>
+          <h1>Menyu</h1>
+          <br />
+          <br />
+          <p>
+            Har bir ichimlik maxsus qahva donlari va professional usulda
+            tayyorlanadi.
+          </p>
+        </div>
+        <div class="main-container">
+          <button class="main-btn active">Barchasi</button>
+          <button class="main-btn inactive">Issiq</button>
+          <button class="main-btn inactive">Sovuq</button>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="contact-section">
+        <span class="contact-sub">ALOQA</span>
+        <h2 class="contact-title">Biz bilan bog'laning</h2>
+        <p class="contact-desc">
+          Savollaringiz bormi? Xabar yozing — tez orada javob beramiz.
+        </p>
+
+        <form class="contact-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Ism *</label>
+              <input type="text" id="name" placeholder="Ismingiz" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Telefon</label>
+              <input type="tel" id="phone" placeholder="+998 90 000 00 00" />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email *</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="email@manzil.uz"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Xabar *</label>
+            <textarea
+              id="message"
+              rows="5"
+              placeholder="Xabaringizni yozing..."
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" class="submit-btn">Yuborish</button>
+        </form>
+      </div>
+      <div class="menu-pure">
+        <div class="menu-pure">
+          <div class="menu-card">
+            <div class="card-image-box">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCtBVhe7cGD4q6no8urWGIGbY8avGCvWzrEjpvHT7_nQ&s=10"
+                alt="Espresso"
+              />
+              <span class="badge hot">🔥 Issiq</span>
+            </div>
+            <div class="card-body">
+              <div class="card-header">
+                <h3>Espresso</h3>
+                <span class="price">12 000 so'm</span>
+              </div>
+              <p class="description">
+                Kuchli va to'q, italyan usulida tayyorlangan klassik qahva.
+              </p>
+              <button class="order-btn">Buyurtma berish</button>
+            </div>
+          </div>
+
+          <div class="menu-card">
+            <div class="card-image-box">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfXgscfmAgVZdy6_OveIpriTuCUZfCEEs0CaKy5Ixl4Q&s=10"
+                alt="Cappuccino"
+              />
+              <span class="badge hot">🔥 Issiq</span>
+            </div>
+            <div class="card-body">
+              <div class="card-header">
+                <h3>Cappuccino</h3>
+                <span class="price">18 000 so'm</span>
+              </div>
+              <p class="description">
+                Espresso, bug'langan sut va ko'pikli sut qatlami bilan.
+              </p>
+              <button class="order-btn">Buyurtma berish</button>
+            </div>
+          </div>
+
+          <div class="menu-card">
+            <div class="card-image-box">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnMxiYBDGJgYZt8jUZT6Kpy80tUcjFPDylfwAMIliLBQ&s=10"
+                alt="Cold Brew"
+              />
+              <span class="badge cold">❄️ Sovuq</span>
+            </div>
+            <div class="card-body">
+              <div class="card-header">
+                <h3>Cold Brew</h3>
+                <span class="price">22 000 so'm</span>
+              </div>
+              <p class="description">
+                24 soat sovuq suvda damlangan, yumshoq va terng lazzatli.
+              </p>
+              <button class="order-btn">Buyurtma berish</button>
+            </div>
+          </div>
+
+          <div class="menu-card">
+            <div class="card-image-box">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsekhJCAaapvhK1-ZFwz96XmOebv5J1gNGDGo4et2_AA&s=10"
+                alt="Latte"
+              />
+              <span class="badge hot">🔥 Issiq</span>
+            </div>
+            <div class="card-body">
+              <div class="card-header">
+                <h3>Latte</h3>
+                <span class="price">20 000 so'm</span>
+              </div>
+              <p class="description">
+                Ipak kabi yumshoq sut bilan uyg'unlashgan espresso.
+              </p>
+              <button class="order-btn">Buyurtma berish</button>
+            </div>
+          </div>
+
+          <div class="menu-card">
+            <div class="card-image-box">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPeUgIjWNXex0RoA08OcxJWm8Xg80BVm430xKzz-dhAA&s=10"
+                alt="Matcha Latte"
+              />
+              <span class="badge hot">🔥 Issiq</span>
+            </div>
+            <div class="card-body">
+              <div class="card-header">
+                <h3>Matcha Latte</h3>
+                <span class="price">24 000 so'm</span>
+              </div>
+              <p class="description">
+                Yapon yashil choy kukuni va bug'langan sut uyg'unligi.
+              </p>
+              <button class="order-btn">Buyurtma berish</button>
+            </div>
+          </div>
+
+          <div class="menu-card">
+            <div class="card-image-box">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcU6-w0Nt0tzdYjKvhO3XJyxZwSGWuzQBxzKK6mv606w&s=10"
+                alt="Frappe"
+              />
+              <span class="badge cold">❄️ Sovuq</span>
+            </div>
+            <div class="card-body">
+              <div class="card-header">
+                <h3>Frappe</h3>
+                <span class="price">26 000 so'm</span>
+              </div>
+              <p class="description">
+                Muz, sut va qahva bilan blenderlangan salqin ichimlik.
+              </p>
+              <button class="order-btn">Buyurtma berish</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="main-footer">
+        <div class="footer-container">
+          <div class="footer-logo">
+            <span>☕ Qahvaxona</span>
+          </div>
+
+          <p class="footer-info">
+            Toshkent, Chilonzor tumani, Navruz ko'chasi 12 • Har kuni 08:00 -
+            22:00
+          </p>
+
+          <p class="footer-copyright">
+            &copy; 2026 Qahvaxona. Barcha huquqlar himoyalangan.
+          </p>
+        </div>
+      </footer>
+    </footer>
+  </body>
+</html>
